@@ -1,3 +1,10 @@
+body {
+  padding: 10px;
+}
+
+#ingredients {
+  margin-top: 10px;
+}
 .js-gallery {
   display: flex;
   flex-direction: column;
@@ -9,4 +16,25 @@
 .js-gallery__item {
   display: flex;
   justify-content: center;
+}
+
+#name-input {
+  margin-top: 10px;
+}
+
+#validation-input {
+  display: block;
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+#font-size-control {
+  margin-top: 10px;
 }
