@@ -7,7 +7,7 @@ const outputBasicNameRef = outputNameRef.textContent;
 // console.dir(outputNameRef);
 
 inputNameRef.addEventListener('input', event => {
-  outputNameRef.textContent = inputNameRef.value
+  outputNameRef.textContent = event.target.value
     ? event.target.value
     : outputBasicNameRef;
 });

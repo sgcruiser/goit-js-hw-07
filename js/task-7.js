@@ -5,6 +5,14 @@ const textSpanRef = document.querySelector('#text');
 // console.dir(textSpanRef);
 
 fontSizeControlRef.addEventListener('input', event => {
-  textSpanRef.style.fontSize = `${event.target.valueAsNumber}px`;
-  // console.dir(event.target);
+  textSpanRef.style.fontSize = `${event.target.value}px`;
+  // console.dir(event);
 });
+
+/*
+ * Первый вариант
+ */
+
+// fontSizeControlRef.addEventListener('input', event => {
+//   textSpanRef.style.fontSize = `${fontSizeControlRef.valueAsNumber}px`;
+// });
